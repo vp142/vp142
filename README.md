@@ -2,7 +2,7 @@
 
 **Software Engineer | Backend & Distributed Systems**
 
-Node.js • TypeScript • Python • React • PostgreSQL • Redis • Kafka • Docker • AWS • PHP 
+Node.js • TypeScript • Python • React • PostgreSQL • Redis • Kafka • Docker • AWS
 
 I’m a Software Engineer with 2+ years of experience building backend systems, APIs, and cloud-native applications. I enjoy designing scalable systems end-to-end — from database design and service architecture to real-time communication, deployment, and production reliability.
 
@@ -23,7 +23,7 @@ My work has focused on distributed systems, SaaS platforms, authentication, even
 
 ## Featured Work
 
-### Real-Time Distributed Messaging System
+### [Real-Time Distributed Messaging System](https://github.com/vp142/real-time-distributed-messaging-system)
 A production-style distributed messaging platform demonstrating real-time communication, event-driven architecture, and scalable backend design.
 
 **Highlights**
@@ -34,7 +34,7 @@ A production-style distributed messaging platform demonstrating real-time commun
 - Containerized a multi-service environment with Docker Compose
 - Added reverse proxy support and CI automation for reproducible development
 
-### MeetAI — Real-Time AI Video Assistant
+### [MeetAI — Real-Time AI Video Assistant](https://github.com/vp142/Meet-AI)
 A SaaS platform focused on real-time AI-driven workflows and scalable multi-tenant backend architecture.
 
 **Highlights**
@@ -44,7 +44,7 @@ A SaaS platform focused on real-time AI-driven workflows and scalable multi-tena
 - Integrated external AI services with retries, validation, and error handling
 - Built type-safe backend interfaces using tRPC
 
-### KentroPOS — Modular POS & Business Management Platform
+### [KentroPOS — Modular POS & Business Management Platform](https://github.com/vp142/kentro-pos)
 A modular multi-tenant POS and business platform built with a strong focus on secure backend workflows and operational features.
 
 **Highlights**
@@ -53,14 +53,33 @@ A modular multi-tenant POS and business platform built with a strong focus on se
 - Built modular business features and reporting workflows
 - Supported multi-user and multi-location usage
 
+### [E-Commerce Backend Services](https://github.com/vp142/django-ecommerce-project)
+A backend-focused commerce system centered on API design, transactional workflows, and payment integration.
+
+**Highlights**
+- Designed REST APIs for product catalog, users, and order workflows
+- Integrated Stripe payments with server-side validation and webhook handling
+- Built transactional backend flows to support consistency and reliability
+- Documented APIs using OpenAPI for maintainability and integration readiness
+
+### [High-Performance TCP Packet Analyzer](https://github.com/vp142/high-performance-tcp-packet-analyzer)
+A systems-focused networking project centered on packet analysis, performance, and low-level protocol handling.
+
+**Highlights**
+- Built with C++ for performance-focused network processing
+- Focused on packet inspection and TCP-level analysis
+- Demonstrates understanding of networking fundamentals and systems programming
+
 ---
 
 ## Tech Stack
 
-**Languages:** TypeScript, JavaScript, Python, Java, PHP  
+**Languages:** TypeScript, JavaScript, Python, Java, PHP, C++  
 **Frontend:** React, Next.js, HTML, CSS  
 **Backend:** Node.js, NestJS, Express, Django, Spring Boot, Laravel  
 **Databases:** PostgreSQL, MySQL, MongoDB, Redis  
 **Architecture:** REST APIs, OpenAPI, Microservices, Event-Driven Systems, Async Processing  
 **Cloud & DevOps:** AWS, Docker, Kubernetes, CI/CD  
 **Security:** JWT, RBAC, Authentication & Authorization
+
+---
