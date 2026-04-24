@@ -1,27 +1,38 @@
 # Hi, I’m Vaikunth 👋
 
-**Software Engineer | Backend & Distributed Systems**
+**Software Engineer | Backend, Distributed Systems & Cloud-Native Applications**
 
-Node.js • TypeScript • Python • React • PostgreSQL • Redis • Kafka • Docker • AWS
+TypeScript • Node.js • NestJS • Python • React • Angular • PostgreSQL • MongoDB • Redis • Kafka • Docker • AWS • Laravel(PHP) • Azure 
 
-I’m a Software Engineer with 2+ years of experience building backend systems, APIs, and cloud-native applications. I enjoy designing scalable systems end-to-end — from database design and service architecture to real-time communication, deployment, and production reliability.
+I’m a Software Engineer with 2+ years of experience building backend systems, REST APIs, SaaS-style platforms, and cloud-native applications. I enjoy designing scalable systems end-to-end — from database design and service architecture to authentication, asynchronous workflows, deployment, and production reliability.
 
-My work has focused on distributed systems, SaaS platforms, authentication, event-driven workflows, and performance-oriented backend development.
+My work focuses on distributed systems, API design, event-driven architecture, SaaS platforms, authentication/authorization, workflow automation, and performance-oriented backend development.
 
 ---
 
 ## What I Work On
 
-- Designing and building backend systems and REST APIs
-- Developing distributed and event-driven applications
-- Building real-time systems with messaging and WebSockets
-- Implementing authentication, authorization, and secure service workflows
-- Working with cloud infrastructure, containers, and CI/CD pipelines
-- Improving reliability, scalability, and production readiness
+- Designing and building backend systems, REST APIs, and service-oriented applications
+- Developing distributed, event-driven, and asynchronous workflows
+- Building SaaS-style platforms with authentication, RBAC, and workspace-based access
+- Implementing real-time systems using WebSockets, Redis, Kafka, and background workers
+- Working with cloud infrastructure, containers, Docker Compose, and CI/CD pipelines
+- Improving reliability, scalability, observability, and production readiness
 
 ---
 
 ## Featured Work
+
+### [OpsPilot — AI Operations Workspace](https://github.com/vp142/ops-pilot)
+A SaaS-style AI operations workspace that helps teams turn notes, documents, and review outputs into structured tasks and decisions.
+
+**Highlights**
+- Built with Angular, NestJS, MongoDB, Redis, BullMQ, Docker, and GitHub Actions
+- Implemented JWT authentication, refresh tokens, RBAC, member invitations, and multi-workspace tenancy
+- Designed workspace-isolated data flows for documents, reviews, tasks, decisions, members, search, and activity history
+- Built an asynchronous AI review pipeline using Redis/BullMQ workers with mock and OpenAI provider modes
+- Added approval workflows that promote AI-generated review outputs into actionable tasks and decisions
+- Included Dockerized local infrastructure, seeded demo data, CI checks, architecture documentation, and GitHub-ready screenshots
 
 ### [Real-Time Distributed Messaging System](https://github.com/vp142/real-time-distributed-messaging-system)
 A production-style distributed messaging platform demonstrating real-time communication, event-driven architecture, and scalable backend design.
@@ -75,11 +86,9 @@ A systems-focused networking project centered on packet analysis, performance, a
 ## Tech Stack
 
 **Languages:** TypeScript, JavaScript, Python, Java, PHP, C++  
-**Frontend:** React, Next.js, HTML, CSS  
+**Frontend:** Angular, React, Next.js, HTML, CSS  
 **Backend:** Node.js, NestJS, Express, Django, Spring Boot, Laravel  
 **Databases:** PostgreSQL, MySQL, MongoDB, Redis  
-**Architecture:** REST APIs, OpenAPI, Microservices, Event-Driven Systems, Async Processing  
-**Cloud & DevOps:** AWS, Docker, Kubernetes, CI/CD  
-**Security:** JWT, RBAC, Authentication & Authorization
-
----
+**Architecture:** REST APIs, OpenAPI, Microservices, Event-Driven Systems, Async Processing, Background Jobs  
+**Cloud & DevOps:** AWS, Docker, Kubernetes, GitHub Actions, CI/CD  
+**Security:** JWT, Refresh Tokens, RBAC, Authentication, Authorization, Secure API Design
