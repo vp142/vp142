@@ -1,94 +1,131 @@
-# Hi, I’m Vaikunth 👋
+# Hi, I'm Vaikunth 👋
 
-**Software Engineer | Backend, Distributed Systems & Cloud-Native Applications**
+### Software Engineer building backend systems, SaaS platforms, and cloud-native applications.
 
-TypeScript • Node.js • NestJS • Python • React • Angular • PostgreSQL • MongoDB • Redis • Kafka • Docker • AWS • Laravel(PHP) • Azure 
+I’m a backend-focused full-stack developer with 2+ years of experience building REST APIs, SaaS-style platforms, distributed systems, and database-driven applications.
 
-I’m a Software Engineer with 2+ years of experience building backend systems, REST APIs, SaaS-style platforms, and cloud-native applications. I enjoy designing scalable systems end-to-end — from database design and service architecture to authentication, asynchronous workflows, deployment, and production reliability.
+I enjoy taking ideas from system design to working product — authentication, APIs, databases, background jobs, real-time communication, cloud-ready infrastructure, and production-style documentation.
 
-My work focuses on distributed systems, API design, event-driven architecture, SaaS platforms, authentication/authorization, workflow automation, and performance-oriented backend development.
+![GitHub stars](https://img.shields.io/github/stars/vp142?style=social)
+
+---
+
+## Tech I Use
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-000000?style=flat-square&logo=apachekafka&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ-ED1C24?style=flat-square&logo=redis&logoColor=white)
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white)
 
 ---
 
 ## What I Work On
 
-- Designing and building backend systems, REST APIs, and service-oriented applications
-- Developing distributed, event-driven, and asynchronous workflows
-- Building SaaS-style platforms with authentication, RBAC, and workspace-based access
-- Implementing real-time systems using WebSockets, Redis, Kafka, and background workers
-- Working with cloud infrastructure, containers, Docker Compose, and CI/CD pipelines
-- Improving reliability, scalability, observability, and production readiness
+- Backend systems, REST APIs, and service-oriented applications
+- SaaS platforms with authentication, RBAC, and workspace-based access
+- Distributed systems using Redis, Kafka, WebSockets, and background workers
+- Database design with PostgreSQL, MongoDB, MySQL, and Redis
+- Cloud-native development using Docker, CI/CD, AWS, and Azure concepts
+- Clean documentation, architecture diagrams, and recruiter-friendly project presentation
 
 ---
 
-## Featured Work
+## Featured Projects
 
 ### [OpsPilot — AI Operations Workspace](https://github.com/vp142/ops-pilot)
-A SaaS-style AI operations workspace that helps teams turn notes, documents, and review outputs into structured tasks and decisions.
 
-**Highlights**
-- Built with Angular, NestJS, MongoDB, Redis, BullMQ, Docker, and GitHub Actions
-- Implemented JWT authentication, refresh tokens, RBAC, member invitations, and multi-workspace tenancy
-- Designed workspace-isolated data flows for documents, reviews, tasks, decisions, members, search, and activity history
-- Built an asynchronous AI review pipeline using Redis/BullMQ workers with mock and OpenAI provider modes
-- Added approval workflows that promote AI-generated review outputs into actionable tasks and decisions
-- Included Dockerized local infrastructure, seeded demo data, CI checks, architecture documentation, and GitHub-ready screenshots
+A SaaS-style AI operations platform that turns notes, documents, and AI review outputs into structured tasks and decisions.
 
-### [Real-Time Distributed Messaging System](https://github.com/vp142/real-time-distributed-messaging-system)
-A production-style distributed messaging platform demonstrating real-time communication, event-driven architecture, and scalable backend design.
+**Built with:** Angular, NestJS, MongoDB, Redis, BullMQ, Docker, GitHub Actions
 
-**Highlights**
-- Built with NestJS, React, PostgreSQL, Redis, Kafka, Socket.IO, Docker, and Nginx
-- Implemented JWT-based authentication and secure socket connection flow
-- Designed asynchronous message processing using Kafka for decoupled event handling
-- Used Redis for online presence, fast state access, and session-related workflows
-- Containerized a multi-service environment with Docker Compose
-- Added reverse proxy support and CI automation for reproducible development
-
-### [MeetAI — Real-Time AI Video Assistant](https://github.com/vp142/Meet-AI)
-A SaaS platform focused on real-time AI-driven workflows and scalable multi-tenant backend architecture.
-
-**Highlights**
-- Built backend APIs for AI-driven SaaS workflows
-- Designed authentication, user lifecycle, and workspace-based flows
-- Modeled PostgreSQL data for performance and scalability
-- Integrated external AI services with retries, validation, and error handling
-- Built type-safe backend interfaces using tRPC
-
-### [KentroPOS — Modular POS & Business Management Platform](https://github.com/vp142/kentro-pos)
-A modular multi-tenant POS and business platform built with a strong focus on secure backend workflows and operational features.
-
-**Highlights**
-- Designed end-to-end application architecture across backend, frontend, and database layers
-- Implemented authentication and role-based access control
-- Built modular business features and reporting workflows
-- Supported multi-user and multi-location usage
-
-### [E-Commerce Backend Services](https://github.com/vp142/django-ecommerce-project)
-A backend-focused commerce system centered on API design, transactional workflows, and payment integration.
-
-**Highlights**
-- Designed REST APIs for product catalog, users, and order workflows
-- Integrated Stripe payments with server-side validation and webhook handling
-- Built transactional backend flows to support consistency and reliability
-- Documented APIs using OpenAPI for maintainability and integration readiness
-
-### [High-Performance TCP Packet Analyzer](https://github.com/vp142/high-performance-tcp-packet-analyzer)
-A systems-focused networking project centered on packet analysis, performance, and low-level protocol handling.
-
-**Highlights**
-- Built with C++ for performance-focused network processing
-- Focused on packet inspection and TCP-level analysis
-- Demonstrates understanding of networking fundamentals and systems programming
+**What it shows:**
+- Multi-workspace SaaS architecture
+- JWT authentication, refresh tokens, RBAC, and member invitations
+- Async AI review pipeline using Redis/BullMQ workers
+- Approval workflow for converting AI outputs into tasks and decisions
+- Dockerized local infrastructure, seeded demo data, CI checks, and architecture docs
 
 ---
 
-## Tech Stack
+### [Real-Time Distributed Messaging System](https://github.com/vp142/real-time-distributed-messaging-system)
 
-**Languages:** TypeScript, JavaScript, Python, Java, PHP, C++  
-**Frontend:** Angular, React, Next.js, HTML, CSS  
-**Backend:** Node.js, NestJS, Express, Django, Spring Boot, Laravel  
-**Databases:** PostgreSQL, MySQL, MongoDB, Redis  
-**Architecture:** REST APIs, OpenAPI, Microservices, Event-Driven Systems, Async Processing, Background Jobs  
-**Cloud & DevOps:** AWS, Docker, Kubernetes, GitHub Actions, CI/CD  
-**Security:** JWT, Refresh Tokens, RBAC, Authentication, Authorization, Secure API Design
+A production-style messaging platform focused on real-time communication, event-driven backend design, and scalable system architecture.
+
+**Built with:** NestJS, React, PostgreSQL, Redis, Kafka, Socket.IO, Docker, Nginx
+
+**What it shows:**
+- Real-time chat using WebSockets and Socket.IO
+- Kafka-based asynchronous message processing
+- Redis-powered online presence and pub/sub workflows
+- JWT-based authentication and secure socket connection flow
+- Multi-service Docker Compose setup with reverse proxy support
+
+---
+
+### [MeetAI — AI SaaS Platform](https://github.com/vp142/Meet-AI)
+
+A full-stack SaaS project focused on AI-powered workflows, authentication, and scalable backend APIs.
+
+**Built with:** React, TypeScript, Next.js, PostgreSQL, tRPC
+
+**What it shows:**
+- Type-safe API design
+- AI service integration with validation and error handling
+- User/session lifecycle workflows
+- SaaS-style architecture and PostgreSQL data modeling
+
+---
+
+## Other Projects
+
+- [E-Commerce Backend Services](https://github.com/vp142/django-ecommerce-project) — Django backend with REST APIs, Stripe payments, webhooks, and transactional workflows
+- [KentroPOS](https://github.com/vp142/kentro-pos) — Modular POS/business platform with authentication, RBAC, and reporting workflows
+- [High-Performance TCP Packet Analyzer](https://github.com/vp142/high-performance-tcp-packet-analyzer) — C++ networking project focused on TCP packet analysis and systems programming
+
+---
+
+## Currently Working On
+
+- Improving my portfolio with production-style full-stack projects
+- Building SaaS and distributed systems using Angular, NestJS, MongoDB, Redis, Kafka, and Docker
+- Strengthening cloud, CI/CD, system design, and backend architecture skills
+- Preparing for software engineering, backend, SDET, and API integration roles
+
+---
+
+## GitHub Stats
+
+![Vaikunth's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vp142&show_icons=true&theme=default)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vp142&layout=compact&theme=default)
+
+---
+
+## Let's Connect
+
+- GitHub: [github.com/vp142](https://github.com/vp142)
+- LinkedIn: [linkedin.com/in/vaikunth-patel-aa3525161](https://www.linkedin.com/in/vaikunth-patel-aa3525161/)
+- Email: [vaikunthpatel67@gmail.com](mailto:vaikunthpatel67@gmail.com)
